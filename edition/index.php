@@ -32,18 +32,18 @@
 				margin-top: 10px;
 				margin-bottom: 10px;
 			}
-			constellationname {
+			.constellationname {
 				font-size: 40px;
 				text-align: center;
 			}
-			alsoknown {
+			.alsoknown {
 				text-align: center;
 				font-size: 20px;#
 			}
-			visible {
+			.visible {
 				font-size: 20px;	
 			}
-			findlink {
+			.findlink {
 				font-size: 24px;
 				font-family:'Courier New';
 				text-decoration: underline;
@@ -53,12 +53,12 @@
 	</head>
 	<body>
 		<div class="page">
-			<span style="constellationname"><?php echo $constellation; ?></span>
-			<span style="alsoknown">aka <?php echo $alsoknown; ?></span>
+			<div class="constellationname"><?php echo $constellation; ?></div>
+			<div class="alsoknown">aka <?php echo $alsoknown; ?></div>
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
-			<span style="visible"><?php echo $visible; ?></span>
-			<span style="findlink"><?php echo $findlink; ?></span>
+			<div class="visible"><?php echo $visible; ?></div>
+			<div class="findlink"><?php echo $findlink; ?></div>
 			<img class="dither" src="http://constellatio.mrreid.org/edition/footer.jpg" />
 		</div>
 	</body>
