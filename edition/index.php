@@ -39,9 +39,9 @@
 	<body>
 		<div class="page">
 			<h1><?php echo $constellation; ?></h1>
-			<?php echo $description; ?>
-			<?php echo $visible; ?>
-			<img src = "<?php echo $imageURL; ?>"
+			<p><?php echo $description; ?></p>
+			<p><?php echo $visible; ?></p>
+			<img src="<?php echo $imageURL; ?>" />
 		</div>
 	</body>
 </html>
