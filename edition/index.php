@@ -38,10 +38,12 @@
 	</head>
 	<body>
 		<div class="page">
+			<img class="dither" src="http://constellatio.mrreid.org/edition/header.jpg" />
 			<h1><?php echo $constellation; ?></h1>
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
 			<p><?php echo $visible; ?></p>
+			<img class="dither" src="http://constellatio.mrreid.org/edition/footer.jpg" />
 		</div>
 	</body>
 </html>
