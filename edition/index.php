@@ -7,8 +7,8 @@
 	$constellation = "Cassiopeia"; // Latin name of constellation
 	$alsoknown = "the Seated Queen"; // Alternate 'symbolism' name
 	$imageURL = "cassiopeia.png"; // Relative URL to constellation image
-	$description = "Cassiopeia is a constellation in the northern sky, named after the vain queen Cassiopeia in Greek mythology."; // Description of constellation
-	$visible = "The link below will show you the current location of Tsih, the central star in Cassiopeia."; // How to find this constellation in the night sky
+	$description = "Cassiopeia is a constellation in the northern sky, named after the vain queen Cassiopeia from Greek mythology."; // Description of constellation
+	$visible = "To help you find Cassiopeia, the link below will show you the current position of Tsih, its central star."; // How to find this constellation in the night sky
 	$findlink = "http://wolfr.am/12fGqRk"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
