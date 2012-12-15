@@ -4,7 +4,7 @@
 	$md5 = md5($date); // Create MD5 hash of $date
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$constellation = "Camelopardalis";
+	$constellation = "Cassiopeia";
 	$imageURL = "cassiopeia.png";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -19,7 +19,7 @@
             			padding: 0;
             			border: 0;
             			font-size: 20px;
-            			font-family:'St Ryde';
+            			font-family:'Signika';
 			}
 			.page {
 				width: 384px;
