@@ -5,7 +5,7 @@
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
 	$constellation = "Cassiopeia";
-	$alsoknown = "the Seated Queen"
+	$alsoknown = "the Seated Queen";
 	$imageURL = "cassiopeia.png";
 	$description = "Cassiopeia is a constellation in the northern sky, named after the vain queen Cassiopeia in Greek mythology.";
 	$visible = "You can use the Wolfram Alpha link below to find the current location of Tsih, the central star in Cassiopeia.";
