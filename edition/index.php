@@ -18,9 +18,9 @@
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<style>
 			body {
-            			margin: 0;
-            			padding: 0;
-            			border: 0;
+            			margin: 0px;
+            			padding: 0px;
+            			border: 0px;
             			font-size: 25px;
             			font-family:'Signika';
 			}
@@ -37,9 +37,10 @@
 				text-align: center;
 			}
 			p.findlink {
-				font-size: 30px;
+				font-size: 25px;
 				font-family:'Courier New';
 				text-decoration: underline;
+				text-align: center;
 			}
 			p.visible {
 				font-size: 20px;	
