@@ -54,7 +54,7 @@
 	<body>
 		<div class="page">
 			<div class="constellationname"><?php echo $constellation; ?></div>
-			<div class="alsoknown">aka <?php echo $alsoknown; ?></div>
+			<div class="alsoknown"><?php echo $alsoknown; ?></div>
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
 			<div class="visible"><?php echo $visible; ?></div>
