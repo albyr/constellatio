@@ -3,7 +3,7 @@
     "publication_api_version":"1.0",
     "name": "Constellatio",
     "description": "A new constellation every week.",
-    "delivered_on": "weekly on Sundays",
+    "delivered_on": "every Sunday",
     "send_timezone_info": false,
     "send_delivery_count": false,
     "external_configuration": false
