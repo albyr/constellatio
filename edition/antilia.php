@@ -59,7 +59,6 @@
 			<p><?php echo $description; ?></p>
 			<div class="visible"><?php echo $visible; ?></div>
 			<div class="findlink"><strong><?php echo $findlink; ?><strong></div>
-			<div class="alsoknown">Constellatio produced by @Alby<?php echo $alsoknown; ?></div>
 			<img class="dither" src="http://constellatio.mrreid.org/edition/footer.jpg" />
 		</div>
 	</body>
