@@ -19,14 +19,14 @@
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<style>
 			body {
-            			margin: 0px;
-            			padding: 0px;
-            			border: 0px;
             			font-size: 22px;
-            			font-family:'Signika';
+            			font-family:'Georgia';
 			}
 			.page {
-				width: 384px;
+				margin: 0px;
+            			padding: 0px;
+            			border: 0px;
+            			width: 384px;
 			}
 			img {
 				margin-top: 10px;
@@ -39,6 +39,9 @@
 			.alsoknown {
 				text-align: center;
 				font-size: 20px;#
+			}
+			.description {
+			}
 			}
 			.visible {
 				font-size: 20px;	
@@ -56,7 +59,7 @@
 			<div class="constellationname"><?php echo $constellation; ?></div>
 			<div class="alsoknown">aka <?php echo $alsoknown; ?></div>
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
-			<p><?php echo $description; ?></p>
+			<div class="description"><?php echo $description; ?></div>
 			<div class="visible"><?php echo $visible; ?></div>
 			<div class="findlink"><?php echo $findlink; ?></div>
 			<img class="dither" src="http://constellatio.mrreid.org/edition/footer.jpg" />
