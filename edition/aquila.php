@@ -4,12 +4,12 @@
 	$md5 = md5($date); // Create MD5 hash of $date
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$constellation = "Cassiopeia"; // Latin name of constellation
-	$alsoknown = "the Seated Queen"; // Alternate 'symbolism' name
-	$imageURL = "cassiopeia.png"; // Relative URL to constellation image
-	$description = "Cassiopeia is a constellation in the northern sky, named after the vain queen Cassiopeia from Greek mythology."; // Description of constellation
-	$visible = "To help you find Cassiopeia, the link below will show you the current position of Tsih, its central star."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/12fGqRk"; // Link to constellation location
+	$constellation = "Aquila"; // Latin name of constellation
+	$alsoknown = "the Eagle"; // Alternate 'symbolism' name
+	$imageURL = "aquila.png"; // Relative URL to constellation image
+	$description = "Aquila is a constellation in the northern sky, named after the bird who carried Zeus's thunderbolts."; // Description of constellation
+	$visible = "To help you find Aquila, the link below will show you the current position of Altair, its brightest star."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/UwHwSr"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
