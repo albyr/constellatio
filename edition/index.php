@@ -21,7 +21,7 @@
             			margin: 0;
             			padding: 0;
             			border: 0;
-            			font-size: 20px;
+            			font-size: 25px;
             			font-family:'Signika';
 			}
 			.page {
@@ -36,10 +36,13 @@
 				font-size: 40px;
 				text-align: center;
 			}
-			findlink {
+			p.findlink {
 				font-size: 30px;
 				font-family:'Courier New';
 				text-decoration: underline;
+			}
+			p.visible {
+				font-size: 20px;	
 			}
 		</style>
 	</head>
@@ -49,8 +52,8 @@
 			<h1><?php echo $constellation; ?></h1>
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
-			<p><?php echo $visible; ?></p>
-			<p><?php echo $findlink; ?></p>
+			<p class="visible"><?php echo $visible; ?></p>
+			<p class="findlink"><?php echo $findlink; ?></p>
 			<img class="dither" src="http://constellatio.mrreid.org/edition/footer.jpg" />
 		</div>
 	</body>
