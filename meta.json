@@ -2,8 +2,8 @@
     "owner_email" : "alby@bleary-id.co.uk",
     "publication_api_version":"1.0",
     "name": "Constellatio",
-    "description": "Every week a new constellation.",
-    "delivered_on": "every week",
+    "description": "A new constellation every week.",
+    "delivered_on": "weekly on Sundays",
     "send_timezone_info": false,
     "send_delivery_count": false,
     "external_configuration": false
