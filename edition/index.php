@@ -4,8 +4,8 @@
 	$md5 = md5($date);
 	header("ETag: ".$md5);
 	// Define variables
-	$constellation = "Cassiopeia";
-	$imageURL = "cassiopeia.png";
+	// $constellation = "Cassiopeia";
+	// $imageURL = "cassiopeia.png";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
