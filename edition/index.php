@@ -53,12 +53,12 @@
 	</head>
 	<body>
 		<div class="page">
-			<span style="constellationname"><?php echo $constellation; ?></p>
-			<span style="alsoknown">aka <?php echo $alsoknown; ?></p>
+			<span style="constellationname"><?php echo $constellation; ?></span>
+			<span style="alsoknown">aka <?php echo $alsoknown; ?></span>
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
-			<span style="visible"><?php echo $visible; ?></p>
-			<span style="findlink"><?php echo $findlink; ?></p>
+			<span style="visible"><?php echo $visible; ?></span>
+			<span style="findlink"><?php echo $findlink; ?></span>
 			<img class="dither" src="http://constellatio.mrreid.org/edition/footer.jpg" />
 		</div>
 	</body>
