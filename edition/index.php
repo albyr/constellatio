@@ -32,7 +32,8 @@
 			}
 			h1 {
 				font-family:'Signika';
-				font-size: 30px;
+				font-size: 36px;
+				text-align: center;
 			}
 		</style>
 	</head>
