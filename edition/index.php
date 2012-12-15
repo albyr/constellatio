@@ -5,9 +5,10 @@
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
 	$constellation = "Cassiopeia";
+	$alsoknown = "the Seated Queen"
 	$imageURL = "cassiopeia.png";
 	$description = "Cassiopeia is a constellation in the northern sky, named after the vain queen Cassiopeia in Greek mythology.";
-	$visible = "You can use the Wolfram|Alpha link below to find the current location of Tsih, the central star in Cassiopeia.";
+	$visible = "You can use the Wolfram Alpha link below to find the current location of Tsih, the central star in Cassiopeia.";
 	$findlink = "http://wolfr.am/12fGqRk";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -21,7 +22,7 @@
             			margin: 0px;
             			padding: 0px;
             			border: 0px;
-            			font-size: 25px;
+            			font-size: 22px;
             			font-family:'Signika';
 			}
 			.page {
@@ -32,7 +33,6 @@
 				margin-bottom: 10px;
 			}
 			h1 {
-				font-family:'Signika';
 				font-size: 40px;
 				text-align: center;
 			}
@@ -45,12 +45,17 @@
 			p.visible {
 				font-size: 20px;	
 			}
+			p.alsoknown {
+				text-align: center;
+				font-size: 20px;	
+			}
 		</style>
 	</head>
 	<body>
 		<div class="page">
 			<!-- <img class="dither" src="http://constellatio.mrreid.org/edition/header.jpg" /> -->
 			<h1><?php echo $constellation; ?></h1>
+			<p class="alsoknown">aka <?php echo $alsoknown; ?></p>
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
 			<p class="visible"><?php echo $visible; ?></p>
