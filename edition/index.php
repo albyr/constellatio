@@ -1,10 +1,10 @@
 <?php
 	// Create eTag
-	$date = date(w);
-	$md5 = md5($date);
-	header("ETag: ".$md5);
-	// Define variables
-	$constellation = "Cassiopeia";
+	$date = date(W); // Set eTag based on number of week in year, so that eTag changes weekly
+	$md5 = md5($date); // Create MD5 hash of $date
+	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
+	// Define variables for later use
+	$constellation = "Camelopardalis";
 	$imageURL = "cassiopeia.png";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -24,9 +24,16 @@
 			.page {
 				width: 384px;
 			}
+			img {
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			h1 {
+				font-size: 30px;
+			}
 		</style>
 	</head>
 	<body>
-		<?php echo $constellation ?>
+		<?php echo "<h1>" $constellation "</h1>"; ?>
 	</body>
 </html>
