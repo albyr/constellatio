@@ -6,6 +6,7 @@
 	// Define variables for later use
 	$constellation = "Cassiopeia";
 	$imageURL = "cassiopeia.png";
+	$description = "Cassiopeia is a constellation in the northern sky, named after the vain queen Cassiopeia in Greek mythology";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -37,6 +38,7 @@
 	<body>
 		<div class="page">
 			<h1><?php echo $constellation ?></h1>
+			<?php echo $description ?>
 		</div>
 	</body>
 </html>
