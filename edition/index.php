@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 	// Create eTag
 	$date = date(w);
 	$md5 = md5($date);
