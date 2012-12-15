@@ -30,7 +30,6 @@
 			}
 			img {
 				margin-top: 10px;
-				margin-bottom: 10px;
 			}
 			.constellationname {
 				font-size: 40px;
