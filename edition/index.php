@@ -39,7 +39,7 @@
 	<body>
 		<div class="page">
 			<h1><?php echo $constellation; ?></h1>
-			<img src="<?php echo $imageURL; ?>" />
+			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
 			<p><?php echo $visible; ?></p>
 		</div>
