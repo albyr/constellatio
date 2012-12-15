@@ -45,7 +45,7 @@
 			.findlink {
 				padding-top: 5px;
 				font-size: 24px;
-				font-family:'Courier New';
+				font-family:'Latin Modern Mono Prop Light';
 				text-decoration: underline;
 				text-align: center;
 			}
@@ -58,7 +58,7 @@
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
 			<div class="visible"><?php echo $visible; ?></div>
-			<div class="findlink"><?php echo $findlink; ?></div>
+			<div class="findlink"><strong><?php echo $findlink; ?><strong></div>
 			<img class="dither" src="http://constellatio.mrreid.org/edition/footer.jpg" />
 		</div>
 	</body>
