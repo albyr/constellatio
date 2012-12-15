@@ -7,7 +7,8 @@
 	$constellation = "Cassiopeia";
 	$imageURL = "cassiopeia.png";
 	$description = "Cassiopeia is a constellation in the northern sky, named after the vain queen Cassiopeia in Greek mythology.";
-	$visible = "This will describe where the constellation is visible from";
+	$visible = "The easiest way to find Cassiopeia is to find Tsih, the central star of the 'W'. You can use the link below to have Wolfram Alpha show you Tsih's current location from your location.";
+	$findlink = "http://wolfr.am/12fGqRk";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -32,8 +33,13 @@
 			}
 			h1 {
 				font-family:'Signika';
-				font-size: 36px;
+				font-size: 40px;
 				text-align: center;
+			}
+			findlink {
+				font-size: 30px;
+				font-family:'Courier New';
+				text-decoration: underline;
 			}
 		</style>
 	</head>
@@ -44,6 +50,7 @@
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
 			<p><?php echo $visible; ?></p>
+			<p><?php echo $findlink; ?></p>
 			<img class="dither" src="http://constellatio.mrreid.org/edition/footer.jpg" />
 		</div>
 	</body>
