@@ -29,11 +29,14 @@
 				margin-bottom: 10px;
 			}
 			h1 {
+				font-family:'Signika';
 				font-size: 30px;
 			}
 		</style>
 	</head>
 	<body>
-		<h1><?php echo $constellation ?></h1>
+		<div class="page">
+			<h1><?php echo $constellation ?></h1>
+		</div>
 	</body>
 </html>
