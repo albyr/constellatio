@@ -7,7 +7,7 @@
 	$constellation = "Cassiopeia";
 	$imageURL = "cassiopeia.png";
 	$description = "Cassiopeia is a constellation in the northern sky, named after the vain queen Cassiopeia in Greek mythology.";
-	$visible = "The easiest way to find Cassiopeia is to find Tsih, the central star of the 'W'. You can use the link below to have Wolfram Alpha show you Tsih's current location from your location.";
+	$visible = "You can use the Wolfram|Alpha link below to find the current location of Tsih, the central star in Cassiopeia.";
 	$findlink = "http://wolfr.am/12fGqRk";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -37,7 +37,7 @@
 				text-align: center;
 			}
 			p.findlink {
-				font-size: 25px;
+				font-size: 20px;
 				font-family:'Courier New';
 				text-decoration: underline;
 				text-align: center;
