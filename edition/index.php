@@ -37,7 +37,7 @@
 				text-align: center;
 			}
 			p.findlink {
-				font-size: 20px;
+				font-size: 24px;
 				font-family:'Courier New';
 				text-decoration: underline;
 				text-align: center;
@@ -49,7 +49,7 @@
 	</head>
 	<body>
 		<div class="page">
-			<img class="dither" src="http://constellatio.mrreid.org/edition/header.jpg" />
+			<!-- <img class="dither" src="http://constellatio.mrreid.org/edition/header.jpg" /> -->
 			<h1><?php echo $constellation; ?></h1>
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
