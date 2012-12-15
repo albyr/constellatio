@@ -32,9 +32,16 @@
 				margin-top: 10px;
 				margin-bottom: 10px;
 			}
-			h1 {
+			p.constellationname {
 				font-size: 40px;
 				text-align: center;
+			}
+			p.alsoknown {
+				text-align: center;
+				font-size: 20px;#
+			}
+			p.visible {
+				font-size: 20px;	
 			}
 			p.findlink {
 				font-size: 24px;
@@ -42,19 +49,11 @@
 				text-decoration: underline;
 				text-align: center;
 			}
-			p.visible {
-				font-size: 20px;	
-			}
-			p.alsoknown {
-				text-align: center;
-				font-size: 20px;	
-			}
 		</style>
 	</head>
 	<body>
 		<div class="page">
-			<!-- <img class="dither" src="http://constellatio.mrreid.org/edition/header.jpg" /> -->
-			<h1><?php echo $constellation; ?></h1>
+			<p class="constellationname"><?php echo $constellation; ?></p>
 			<p class="alsoknown">aka <?php echo $alsoknown; ?></p>
 			<img src="http://constellatio.mrreid.org/edition/<?php echo $imageURL; ?>" />
 			<p><?php echo $description; ?></p>
