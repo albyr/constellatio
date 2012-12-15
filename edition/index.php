@@ -1,8 +1,8 @@
 ﻿<?php
 	// Create eTag
 	$date = date(w);
-	$eTag = md5($date);
-	header("ETag: ".$eTag);
+	$md5 = md5($date);
+	header("ETag: ".$md5);
 	// Define variables
 	$constellation = "Cassiopeia";
 	$imageURL = "cassiopeia.png";
