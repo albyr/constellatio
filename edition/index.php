@@ -19,9 +19,6 @@
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<style>
 			body {
-            			margin: 0px;
-            			padding: 0px;
-            			border: 0px;
             			font-size: 22px;
             			font-family:'Signika';
 			}
