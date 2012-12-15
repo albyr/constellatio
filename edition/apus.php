@@ -7,7 +7,7 @@
 	$constellation = "Apus"; // Latin name of constellation
 	$alsoknown = "the Bird-of-Paradise"; // Alternate 'symbolism' name
 	$imageURL = "apus.png"; // Relative URL to constellation image
-	$description = "Apus is a constellation in the southern sky. It's name means "no feet" as it is named after a bird-of-paradise which were once believed to have no feet."; // Description of constellation
+	$description = "Apus is a constellation in the southern sky. It's name means &ldquo;no feet&rdquo; as it is named after a bird-of-paradise which were once believed to have no feet."; // Description of constellation
 	$visible = "To help you find Apus, the link below will show you the current position of Alpha Apodis, its brightest star."; // How to find this constellation in the night sky
 	$findlink = "http://wolfr.am/XrRkhR"; // Link to constellation location
 ?>
