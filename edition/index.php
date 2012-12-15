@@ -25,5 +25,6 @@
 		</style>
 	</head>
 	<body>
+		<?php echo $constellation ?>
 	</body>
 </html>
