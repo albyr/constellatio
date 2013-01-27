@@ -4,12 +4,12 @@
 	$md5 = md5($date); // Create MD5 hash of $date
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$constellation = "Aries"; // Latin name of constellation
-	$alsoknown = "the Ram"; // Alternate 'symbolism' name
-	$imageURL = "aries.png"; // Relative URL to constellation image
-	$description = "Aries is the first sign of the Zodiac, located in the Northern hemisphere with Pisces to the west and Taurus to the east. It is relatively dim and quite difficult to find."; // Description of constellation
-	$visible = "To help you find Aries, the link below will show you the current position of Alpha Arietis, its brightest star."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/VesmqS"; // Link to constellation location
+	$constellation = "Cancer"; // Latin name of constellation
+	$alsoknown = "the Crab"; // Alternate 'symbolism' name
+	$imageURL = "cancer.png"; // Relative URL to constellation image
+	$description = "Cancer is the dimmest of the zodiacal constellations and contains seven stars known to have planets."; // Description of constellation
+	$visible = "To help you find Cancer, the link below will show you the current position of Beta Cancri, its brightest and lowest star."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/YwVdI5"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
