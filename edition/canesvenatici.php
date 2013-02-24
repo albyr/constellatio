@@ -4,12 +4,12 @@
 	$md5 = md5($date); // Create MD5 hash of $date
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$constellation = "Camelopardalis"; // Latin name of constellation
-	$alsoknown = "the Giraffe"; // Alternate 'symbolism' name
-	$imageURL = "camelopardalis.png"; // Relative URL to constellation image
-	$description = "Camelopardalis is a large constellation but one which contains only faint stars and distant galaxies."; // Description of constellation
-	$visible = "To help you find Camelopardalis, the link below will show you the current position of Beta Camelopardalis, its lowest and brightest star."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/UuyJ79"; // Link to constellation location
+	$constellation = "Canes Venatici"; // Latin name of constellation
+	$alsoknown = "the Hunting Dogs"; // Alternate 'symbolism' name
+	$imageURL = "canesvenatici.png"; // Relative URL to constellation image
+	$description = "Canes Venatici is a small northern constellation. Its name is Latin for hunting dogs and the constellation is often represented as being the dogs of Boötes, the Herdsman, a neighbouring constellation."; // Description of constellation
+	$visible = "To help you find Canes Venatici, the link below will show you the current position of Cor Caroli, its brightest star."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/WgpEOs"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

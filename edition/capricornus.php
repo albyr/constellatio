@@ -4,12 +4,12 @@
 	$md5 = md5($date); // Create MD5 hash of $date
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$constellation = "Camelopardalis"; // Latin name of constellation
-	$alsoknown = "the Giraffe"; // Alternate 'symbolism' name
-	$imageURL = "camelopardalis.png"; // Relative URL to constellation image
-	$description = "Camelopardalis is a large constellation but one which contains only faint stars and distant galaxies."; // Description of constellation
-	$visible = "To help you find Camelopardalis, the link below will show you the current position of Beta Camelopardalis, its lowest and brightest star."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/UuyJ79"; // Link to constellation location
+	$constellation = "Capricornus"; // Latin name of constellation
+	$alsoknown = "the Sea Goat"; // Alternate 'symbolism' name
+	$imageURL = "capricornus.png"; // Relative URL to constellation image
+	$description = "Capricornus (traditionally called Capricorn) is the smallest of the zodaical constellations. It is located in an area of the sky known as the Sea which contains other water-related constellations such as Aquarius and Pisces."; // Description of constellation
+	$visible = "To help you find Capricornus, the link below will show you the current position of Delta Capricorni, its brightest star."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/XtKITz"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

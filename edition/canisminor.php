@@ -4,12 +4,12 @@
 	$md5 = md5($date); // Create MD5 hash of $date
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$constellation = "Camelopardalis"; // Latin name of constellation
-	$alsoknown = "the Giraffe"; // Alternate 'symbolism' name
-	$imageURL = "camelopardalis.png"; // Relative URL to constellation image
-	$description = "Camelopardalis is a large constellation but one which contains only faint stars and distant galaxies."; // Description of constellation
-	$visible = "To help you find Camelopardalis, the link below will show you the current position of Beta Camelopardalis, its lowest and brightest star."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/UuyJ79"; // Link to constellation location
+	$constellation = "Canis Minor"; // Latin name of constellation
+	$alsoknown = "the Lesser Dog"; // Alternate 'symbolism' name
+	$imageURL = "canisminor.png"; // Relative URL to constellation image
+	$description = "Canis Minor is the lesser of Orion's two dogs. It contains Procyon, the seventh brightest star in the sky, which is actually a binary star system."; // Description of constellation
+	$visible = "To help you find Canis Minor, the link below will show you the current position of Procyon."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/YMutn7"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
