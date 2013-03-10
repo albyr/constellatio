@@ -7,7 +7,7 @@
 	$constellation = "Canes Venatici"; // Latin name of constellation
 	$alsoknown = "the Hunting Dogs"; // Alternate 'symbolism' name
 	$imageURL = "canesvenatici.png"; // Relative URL to constellation image
-	$description = "Canes Venatici is a small northern constellation. Its name is Latin for hunting dogs and the constellation is often represented as being the dogs of Boötes, the Herdsman, a neighbouring constellation."; // Description of constellation
+	$description = "Canes Venatici is a small northern constellation. Its name is Latin for &ldquo;hunting dogs&rdquo; and the constellation is often represented as being the dogs of Bo&ouml;tes, the Herdsman, a neighbouring constellation."; // Description of constellation
 	$visible = "To help you find Canes Venatici, the link below will show you the current position of Cor Caroli, its brightest star."; // How to find this constellation in the night sky
 	$findlink = "http://wolfr.am/WgpEOs"; // Link to constellation location
 ?>
