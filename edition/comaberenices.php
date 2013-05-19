@@ -4,12 +4,12 @@
 	$md5 = md5($date); // Create MD5 hash of $date
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$constellation = "Chamaeleon"; // Latin name of constellation
-	$alsoknown = "the Chameleon"; // Alternate 'symbolism' name
-	$imageURL = "chamaeleon.png"; // Relative URL to constellation image
-	$description = "Chamaeleon is a small southern constellation containing four bright stars. It also contains Cha 110913-773444, which is either a rogue planet or a sub-brown dwarf."; // Description of constellation
-	$visible = "To help you find Chamaeleon, the link below will show you the current position of Alpha Chamaeleontis, its brightest star."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/127hJ6x"; // Link to constellation location
+	$constellation = "Coma Berenices"; // Latin name of constellation
+	$alsoknown = "the Berenice's Hair"; // Alternate 'symbolism' name
+	$imageURL = "comaberenices.png"; // Relative URL to constellation image
+	$description = "Coma Berenices is a small constellation that contains the North Galactic Pole. It also contains eight of the Messier Objects and is rich in galaxies."; // Description of constellation
+	$visible = "To help you find Columba, the link below will show you the current position of Beta Coma Berenices, its brightest star."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/111tsrY"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

@@ -4,12 +4,12 @@
 	$md5 = md5($date); // Create MD5 hash of $date
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$constellation = "Chamaeleon"; // Latin name of constellation
-	$alsoknown = "the Chameleon"; // Alternate 'symbolism' name
-	$imageURL = "chamaeleon.png"; // Relative URL to constellation image
-	$description = "Chamaeleon is a small southern constellation containing four bright stars. It also contains Cha 110913-773444, which is either a rogue planet or a sub-brown dwarf."; // Description of constellation
-	$visible = "To help you find Chamaeleon, the link below will show you the current position of Alpha Chamaeleontis, its brightest star."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/127hJ6x"; // Link to constellation location
+	$constellation = "Columba"; // Latin name of constellation
+	$alsoknown = "the Dove"; // Alternate 'symbolism' name
+	$imageURL = "columba.png"; // Relative URL to constellation image
+	$description = "Columba is a small faint constellation, possibly named for the Dove seen by Noah at the end of the Great Flood or the dove released by Jason and the Argonauts at the mouth of the Black Sea. It contains the runaway star, Mu Columbae."; // Description of constellation
+	$visible = "To help you find Columba, the link below will show you the current position of Alpha Columbae, its brightest star."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/14EIm5Q"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
