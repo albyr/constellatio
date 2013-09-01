@@ -4,12 +4,12 @@
 	$md5 = md5($date); // Create MD5 hash of $date
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$constellation = "Crater"; // Latin name of constellation
-	$alsoknown = "the Cup"; // Alternate 'symbolism' name
-	$imageURL = "crater.png"; // Relative URL to constellation image
-	$description = "Crater (Latin for cup) is named after the cup of the god Apollo. It is a faint constellation, and contains a double star (Gamma Crateris) that can be seen from Earth with a good telescope."; // Description of constellation
-	$visible = "To help you find Crater, the link below will show you the current position of Alpha Crateris, the easternmost and brightest star in Crater."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/1dymgcx"; // Link to constellation location
+	$constellation = "Corvus"; // Latin name of constellation
+	$alsoknown = "the Crow"; // Alternate 'symbolism' name
+	$imageURL = "corvus.png"; // Relative URL to constellation image
+	$description = "Corvus is a small constellation, with only eleven stars visible to the naked eye. Its four primary stars form an asterism known as The Sail after their square shape."; // Description of constellation
+	$visible = "To help you find Corvus, the link below will show you the current position of Alpha Corvi, the brightest star in Corvus."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/13QpEMN"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
