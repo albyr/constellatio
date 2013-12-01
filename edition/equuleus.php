@@ -4,12 +4,12 @@
 	$md5 = md5($date); // Create MD5 hash of $date
 	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$constellation = "Eridanus"; // Latin name of constellation
-	$alsoknown = "the River"; // Alternate 'symbolism' name
-	$imageURL = "eridanus.png"; // Relative URL to constellation image
-	$description = "Eridanus is the sixth-largest of the 88 modern constellations. It contains the star Achernar, the tenth-brightest star in the night sky, and Beta Eridani, the footstool to Orion."; // Description of constellation
-	$visible = "To help you find Eridanus, the link below will show you the current position of Achernar, its brightest star."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/1hr8FWk"; // Link to constellation location
+	$constellation = "Equuleus"; // Latin name of constellation
+	$alsoknown = "the Pony"; // Alternate 'symbolism' name
+	$imageURL = "equuleus.png"; // Relative URL to constellation image
+	$description = "Equuleus is the second-smallest of the 88 modern constellations, second only to Crux (the Southern Cross)."; // Description of constellation
+	$visible = "To help you find Equuleus, the link below will show you the current position of Kitalpha, it's brightest star."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/17ZZNyK"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
