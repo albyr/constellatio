@@ -1,16 +1,16 @@
 <?php
 	// Create eTag
 	// $date = date(W); // Set eTag based on number of week in year, so that eTag changes weekly
-	$constellation = "Horolgium"; // Latin name of constellation
+	$constellation = "Gemini"; // Latin name of constellation
 	$md5 = md5($constellation); // Create MD5 hash of $date
 	// header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	header("ETag: ".$md5); // Set MD5 hash of constellation name as ETag and insert into header
 	// Define variables for later use
-	$alsoknown = "the Pendulum Clock"; // Alternate 'symbolism' name
-	$imageURL = "horolgium.png"; // Relative URL to constellation image
-	$description = "Horolgium is a small faint constellation that contains no bright stars."; // Description of constellation
-	$visible = "You'll struggle, but to help you find Horolgium, the link below will show you the current position of its brightest star, the orange giant Alpha Horologii."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/1moxmml"; // Link to constellation location
+	$alsoknown = "the Twins"; // Alternate 'symbolism' name
+	$imageURL = "gemini.png"; // Relative URL to constellation image
+	$description = "Gemini is one of the twelve zodiacal constellations, and is associated with the twins Castor and Pollux from Greek mythology. It contains 85 stars visible to the naked eye, including the very bright stars Castor and Pollux."; // Description of constellation
+	$visible = "To help you find Gemini, the link below will show you the current position of Pollux."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/1ahkNSH"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

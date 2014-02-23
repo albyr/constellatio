@@ -1,16 +1,16 @@
 <?php
 	// Create eTag
 	// $date = date(W); // Set eTag based on number of week in year, so that eTag changes weekly
-	$constellation = "Horolgium"; // Latin name of constellation
+	$constellation = "Grus"; // Latin name of constellation
 	$md5 = md5($constellation); // Create MD5 hash of $date
 	// header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	header("ETag: ".$md5); // Set MD5 hash of constellation name as ETag and insert into header
 	// Define variables for later use
-	$alsoknown = "the Pendulum Clock"; // Alternate 'symbolism' name
-	$imageURL = "horolgium.png"; // Relative URL to constellation image
-	$description = "Horolgium is a small faint constellation that contains no bright stars."; // Description of constellation
-	$visible = "You'll struggle, but to help you find Horolgium, the link below will show you the current position of its brightest star, the orange giant Alpha Horologii."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/1moxmml"; // Link to constellation location
+	$alsoknown = "the Crane"; // Alternate 'symbolism' name
+	$imageURL = "grus.png"; // Relative URL to constellation image
+	$description = "Grus is a medium-sized southern constellation. It contains six stars that have planetary systems."; // Description of constellation
+	$visible = "To help you find Grus, the link below will show you the current position of its brightest star, Alnair."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/1mKOxNl"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">

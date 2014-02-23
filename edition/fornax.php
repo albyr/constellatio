@@ -1,16 +1,15 @@
 <?php
 	// Create eTag
-	// $date = date(W); // Set eTag based on number of week in year, so that eTag changes weekly
-	$constellation = "Horolgium"; // Latin name of constellation
-	$md5 = md5($constellation); // Create MD5 hash of $date
-	// header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
-	header("ETag: ".$md5); // Set MD5 hash of constellation name as ETag and insert into header
+	$date = date(W); // Set eTag based on number of week in year, so that eTag changes weekly
+	$md5 = md5($date); // Create MD5 hash of $date
+	header("ETag: ".$md5); // Set MD5 hash of $date as ETag and insert into header
 	// Define variables for later use
-	$alsoknown = "the Pendulum Clock"; // Alternate 'symbolism' name
-	$imageURL = "horolgium.png"; // Relative URL to constellation image
-	$description = "Horolgium is a small faint constellation that contains no bright stars."; // Description of constellation
-	$visible = "You'll struggle, but to help you find Horolgium, the link below will show you the current position of its brightest star, the orange giant Alpha Horologii."; // How to find this constellation in the night sky
-	$findlink = "http://wolfr.am/1moxmml"; // Link to constellation location
+	$constellation = "Fornax"; // Latin name of constellation
+	$alsoknown = "the Brazier"; // Alternate 'symbolism' name
+	$imageURL = "fornax.png"; // Relative URL to constellation image
+	$description = "Fornax is a small southern constellation. It contains the area of the sky surveyed in the famous Hubble Ultra Deep Field image and a number of other objects of interest in the investigation of the oldest parts of the Universe."; // Description of constellation
+	$visible = "To help you find Eridanus, the link below will show you the current position of Alpha Fornacis, its brightest star."; // How to find this constellation in the night sky
+	$findlink = "http://wolfr.am/1bPYaty"; // Link to constellation location
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
